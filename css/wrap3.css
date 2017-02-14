@@ -1,0 +1,88 @@
+.wrap3{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-size: 100% 100% !important;
+	background: url(../img/all_page_bg.jpg);	
+}
+.wrap3 .head1{
+	width: 0.8rem;
+	height: 0.8rem;
+	position: absolute;
+	top: 1.1rem;
+	left: 0.6rem;
+	background-size: 100% 100% !important;
+	background: url(../img/head1.png);
+}
+.wrap3 .head2{
+	width: 0.8rem;
+	height: 0.8rem;
+	position: absolute;
+	top: 1.3rem;
+	left: 1.53rem;
+	background-size: 100% 100% !important;
+	background: url(../img/head2.png);
+}
+.wrap3 .head3{
+	width: 0.66rem;
+	height: 0.8rem;
+	position: absolute;
+	top: 1.1rem;
+	left: 2.5rem;
+	background-size: 100% 100% !important;
+	background: url(../img/head3.png);
+}
+.test{
+	width: 2.7rem;
+	height: 0.5rem;
+	position: absolute;
+	top: 2.2rem;
+	left: 0.55rem;
+	background-size: 100% 100% !important;
+	background: url(../img/test_text.jpg);
+}
+.subject{
+	font-size: 0.16rem;
+	font-family: 'MicrosoftYaHei', '微软雅黑', 'STHeitiSC';
+	display: none;
+}
+.subject p{
+	position: absolute;
+	top: 3.2rem;
+	left: 0.45rem;
+}
+.subject div{
+	position: absolute;
+	top: 3.7rem;
+	left: 0.75rem;
+}
+.subject span{
+	display: inline-block;
+	width: 1.2rem;
+	height: 0.4rem;
+}
+.subject span img{
+	float: left;
+	width: 0.2rem;
+	height: 0.2rem;
+	display: none;
+}
+
+.s5 .grc{
+	width: 2rem;
+}
+.next{
+	width: 1.5rem;
+	height: 0.6rem;
+	position: absolute;
+	bottom: 0.35rem;
+	left:1.1rem;
+	background-size: 100% 100% !important;
+	background: url(../img/next_btn.jpg);
+}
+.s2,.s3,.s4,.s5{
+	display: none;
+}

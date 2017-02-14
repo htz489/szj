@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/wrap.css">
+	<link rel="stylesheet" type="text/css" href="css/wrap2.css">
+	<link rel="stylesheet" type="text/css" href="css/wrap3.css">
+	<link rel="stylesheet" type="text/css" href="css/wrap4.css">
+	<link rel="stylesheet" type="text/css" href="css/css-loader.css">
+</head>
+
+<script type="text/javascript">
+	//阻止手机的默认事件
+	window.onload=test();
+	function test(){ 
+		window.ontouchstart = function(event) { event.preventDefault(); };
+	}
+	
+	(function(html){
+		change();
+		function change(){
+			var w = html.clientWidth;
+			var size = 100*(w/375).toFixed(2);
+			html.style.fontSize = size + "px";
+		}
+		window.addEventListener('resize',function(){
+			change();
+		})
+	})(document.documentElement);
+
+</script>
+<body>
+<div class="loader loader-default is-active" >
+	<p></p>
+</div>
+<div class="wrap">
+	<div class="header"></div>
+	<div class="heart"></div>
+	<div class="head1"></div>
+	<div class="head2"></div>
+	<div class="head3"></div>
+	<div class="head4"></div>
+	<div class="mid"></div>
+	<div class="head"></div>
+	<div class="btn"></div>
+	<div class="demond"></div>
+</div>
+<div class="wrap2">
+	<div class="header2"></div>
+	<div class="mid2"></div>
+	<div class="desk"></div>
+	<div class="sofa"></div>
+	<div class="lamp"></div>
+	<div class="hand"></div>
+	<p>把家居移到你心仪的位置</p>
+</div>
+<div class="wrap3">
+	<div class="head1"></div>
+	<div class="head2"></div>
+	<div class="head3"></div>
+	<div class="test"></div>
+	<div class="subject s1">
+		<p>装修好的房子你知道怎么检验吗？</p>
+		<div class="d1">
+			<span class="gra"><img src="img/sign_check.png">A、会</span>
+			<span class="grb"><img src="img/sign_check.png">B、不会</span>
+			<span class="grc"><img src="img/sign_check.png">C、略懂一点</span>
+		</div>
+	</div>
+	<div class="subject s2">
+		<p>关于家具的颜色你怎样选择？</p>
+		<div class="d2">
+			<span class="gra"><img src="img/sign_check.png">A、自己选</span>
+			<span class="grb"><img src="img/sign_check.png">B、听老公的</span>
+			<span class="grc"><img src="img/sign_check.png">C、略懂一点</span>
+		</div>
+	</div>
+	<div class="subject s3">
+		<p>装修开工后的第一步应该做什么？</p>
+		<div class="d3">
+			<span class="gra"><img src="img/sign_check.png">A、水电改造</span>
+			<span class="grb"><img src="img/sign_check.png">B、吊顶</span>
+			<span class="grc"><img src="img/sign_check.png">C、贴瓷砖</span>
+		</div>
+	</div>
+	<div class="subject s4">
+		<p>地砖应该比实际铺设面积多购买多少？</p>
+		<div  class="d4">
+			<span class="gra"><img src="img/sign_check.png">A、20% </span>
+			<span class="grb"><img src="img/sign_check.png">B、15%</span>
+			<span class="grc"><img src="img/sign_check.png">C、10%</span>
+		</div>
+	</div>
+	<div class="subject s5">
+		<p>装修风格选择你的选择是</p>
+		<div class="d5">
+			<span class="gra"><img src="img/sign_check.png">A、我喜欢</span>
+			<span class="grb"><img src="img/sign_check.png">B、老公喜欢</span>
+			<span class="grc"><img src="img/sign_check.png">C、多照顾一下对方喜欢</span>
+		</div>
+	</div>
+	<div class="next"></div>
+</div>
+
+<div class="wrap4">
+	<div class="min4 c1">
+		<div class="heartR"></div>
+		<div class="heartL"></div>
+		<h3>3-5分</h3>
+		<p>你的居家技能只适合做宋仲基的保姆
+因为对装修也不了解，什么都听他的，完全没有自己的主见，这种模式完全是听命于宋仲基，所以只能是保姆。
+		<br>
+		<span>→解决办法：</span>
+		不要盲目的崇拜宋仲基，要将自己放在与宋仲基对等的立场思考问题，对于装修自己也要多多了解。
+		</p>
+		<div class="btnL"></div>
+		<div class="btnR"></div>
+	</div>
+
+	<div class="min4 c2">
+		<div class="heartR"></div>
+		<div class="heartL"></div>
+		<h3>6-7分</h3>
+		<p>你的居家技能只适合做宋仲基的妹妹
+自认为对家装很了解，什么都要按照你的意见来，别人的意见你完全听不进，在这种状态下宋仲基还愿意和你一起生活只能是妹妹了。
+		<br>
+		<span class="solution">→解决办法：</span>
+		要学尊重对方，多为对方考虑，多听听对方的意见
+		</p>
+		<div class="btnL"></div>
+		<div class="btnR"></div>
+	</div>
+
+	<div class="min4 c3">
+		<div class="heartR"></div>
+		<div class="heartL"></div>
+		<h3>8-9分</h3>
+		<p>你的居家技能这么棒，宋仲基的太太头衔属于你啦！
+对于家装你知道前期备课，你相当理性，尊重对方的意见，知道怎样持家，但是对于持家你还要不断地摸索</p>
+		<div class="btnL"></div>
+		<div class="btnR"></div>
+	</div>
+</div>
+
+<div class="wrap5">
+	<img src="img/share.png" alt="">
+</div>
+<div class="me">智传媒策划</div>
+
+<!-- <audio src="music.mp3"></audio> -->
+<audio loop="loop" autoplay="autoplay">
+	<source src="music.mp3" type="audio/mpeg">
+	<source src="music.ogg" type="audio/ogg">
+	<source src="music.wav" type="audio/wav">
+</audio>
+
+<script type="text/javascript" src='js/jquery-3.0.0.min.js'></script>
+<script type="text/javascript" src='js/wrap.js'></script>
+<script type="text/javascript" src='js/wrap2.js'></script>
+<script type="text/javascript" src='js/wrap3.js'></script>
+<script type="text/javascript">
+
+var wrap = document.querySelector(".wrap");
+var wrap2 = document.querySelector(".wrap2");
+var wrap3 = document.querySelector(".wrap3");
+var wrap4 = document.querySelector(".wrap4");
+var wrap5 = document.querySelector(".wrap5");
+var loader = document.querySelector(".loader");
+var p = document.querySelector(".loader p");
+var arrImg = [
+	'all_page_bg.jpg','demond.png', 'face.png', 'head1.png', 'head2.png', 'head3.png', 'head4.png', 'header.png', 'heart.png', 'heart1.png', 'lamp.png', 'next_btn.jpg', 'p2_shou.png', 'page1_btn.png', 'page2_bg.png', 'scroll_btn.png', 'share.png', 'shelf_bg.png', 'shelf.png', 'sign_check.png', 'sofa.png', 'song.png', 'test_text.jpg', 'head2.png', 'zaogao.png'
+];
+var oArr = [];//存放图片对象
+
+var percent = 0;
+loading(arrImg);
+function loading(arr){
+	var index = 0;
+	for (var i = 0; i < arrImg.length; i++) {
+		var img = new Image();
+		oArr.push(img);//保存所有图片对象
+		img.src = "img/"+arrImg[i];
+		img.onload = function(){
+			index++;
+			percent = parseInt(index/arrImg.length*100);
+			p.innerHTML = percent+"%";
+			if (index == arrImg.length) {
+				loader.style.display = "none";
+				//加载完所有的图片就调用开始游戏函数
+				start();
+			}
+		}
+	}
+}
+	
+var audio = document.querySelector("audio");
+audio.play();
+</script>
+</body>
+</html>
